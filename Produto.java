@@ -61,7 +61,7 @@ public class Produto {
     }
 
     @Override
-    public boolean equals(object o) {
+    public boolean equals(Object o) {
         Produto p = (Produto) o;
         return this.tipoDeProduto == p.tipoDeProduto;
     }
